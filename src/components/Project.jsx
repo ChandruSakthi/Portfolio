@@ -1,4 +1,4 @@
-import AnimatedContent from "./AnimatedContent.JSX";
+import AnimatedContent from "./AnimatedContent.jsx";
 
 const Project = () => {
   return (

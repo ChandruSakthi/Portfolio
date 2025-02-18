@@ -1,4 +1,6 @@
-import AnimatedContent from "./AnimatedContent.jsx";
+// import AnimatedContent from "./AnimatedContent.jsx";
+import AnimatedContent from "../components/AnimatedContent." 
+
 
 const Project = () => {
   return (

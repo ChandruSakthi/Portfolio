@@ -28,7 +28,7 @@ const Project = () => {
                 The site is fully responsive, ensuring seamless performance across devices. Features a clean design to effectively showcase skills and projects.
               </p>
               <a
-                href="https://petpalsss.netlify.app/login"
+                href="https://github.com/ChandruSakthi/Portfolio"
                 className="text-[#fe5617] font-bold text-lg hover:underline"
               >
                 Code

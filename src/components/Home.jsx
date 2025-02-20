@@ -3,7 +3,6 @@ import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import RotatingText from './RotatingText'
 // import video from "../Assets/Video.mp4"
-import TiltedCard from "./TitileCard";
 // import MyImage from "myImage.JPG"
 
 
@@ -76,6 +75,13 @@ const Home = () => {
 
         {/* Right Section */}
         <div className="order-1 lg:order-2 flex justify-end items-center">
+          <img
+            src="/myImage.png"
+            alt="Kendrick Lamar - GNX Album Cover"
+            // className="rounded-full w-[250px] h-[250px] md:w-[400px] md:h-[400px] object-cover border-2 border-gray-500"
+            className="rounded-full w-[250px] h-[250px] md:w-[400px] md:h-[400px] object-cover border-2 border-gray-500 relative sm:left-0 left-[-55px]"
+
+          />
           {/* <img
             className="w-[85%] rounded-[50px]"
             src={video}
@@ -85,7 +91,7 @@ const Home = () => {
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
-          <TiltedCard
+          {/* <TiltedCard
             imageSrc="/myImage.png"
             altText="Kendrick Lamar - GNX Album Cover"
             captionText="Chandru"
@@ -93,19 +99,18 @@ const Home = () => {
             containerWidth="400px"
             imageHeight="400px"
             imageWidth="400px"
-            // className="rounded-full border-2 border-gray-500"
             className="rounded-full border-2 border-gray-500 overflow-hidden w-[250px] h-[250px] sm:w-[250px] sm:h-[250px] md:w-[400px] md:h-[400px]"  
             rotateAmplitude={12}
             scaleOnHover={1.2}
             showMobileWarning={false}
             showTooltip={true}
-            displayOverlayContent={true}
-            // overlayContent={
-            //   <p className="tilted-card-demo-text">
-            //     Kendrick Lamar - GNX
-            //   </p>
-            // }
-          />
+            displayOverlayContent={true} */}
+          {/* overlayContent={ */}
+          {/* //   <p className="tilted-card-demo-text"> */}
+          {/* //     Kendrick Lamar - GNX */}
+          {/* //   </p> */}
+          {/* // } */}
+          {/* // /> */}
         </div>
       </div>
     </div>

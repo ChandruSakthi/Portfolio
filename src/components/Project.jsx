@@ -1,5 +1,5 @@
 // import AnimatedContent from "./AnimatedContent.jsx";
-import AnimatedContent from "../components/AnimatedContent." 
+import AnimatedContent from "../components/AnimatedContent.jsx" 
 
 
 const Project = () => {
@@ -31,7 +31,7 @@ const Project = () => {
               </p>
               <a
                 href="https://github.com/ChandruSakthi/Portfolio"
-                className="text-[#fe5617] font-bold text-lg hover:underline"
+                className="text-[#fe5617] font-bold text-lg hover:underline" target="blank"
               >
                 Code
               </a>

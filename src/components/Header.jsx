@@ -199,6 +199,106 @@
 // };
 
 // export default Header;
+// import { useState } from "react";
+// import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+// import { HiMenuAlt3, HiX } from "react-icons/hi";
+// import { Link } from "react-scroll";
+
+// const Header = () => {
+//   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+//   return (
+//     <div className="relative">
+//       <div className="max-w-[90%] mx-auto py-3 flex items-center justify-between font-inter relative">
+//         {/* Logo */}
+//         <div>
+//           <h1 className="text-[2.5rem] font-bold text-[#000] hover:text-[#fe5617] ">
+//             Chandru.
+//           </h1>
+//         </div>
+
+//         {/* Hamburger Menu for Mobile */}
+//         <div className="lg:hidden z-50">
+//           <button
+//             onClick={() => setIsMenuOpen(!isMenuOpen)}
+//             className="transition-all duration-500 ease-in text-[#fe5617]"
+//           >
+//             {isMenuOpen ? <HiX size={29} /> : <HiMenuAlt3 size={29} />}
+//           </button>
+//         </div>
+
+//         {/* Full-Screen Mobile Menu Overlay */}
+//         {isMenuOpen && (
+//           <div className="fixed inset-0 bg-white flex flex-col items-center justify-center z-40">
+//             <nav>
+//               <ul className="text-2xl font-bold space-y-8 text-center">
+//                 <li>
+//                   <Link
+//                     to="home"
+//                     smooth={true}
+//                     duration={500}
+//                     className="hover:text-[#fe5617] cursor-pointer"
+//                     onClick={() => setIsMenuOpen(false)}
+//                   >
+//                     Home
+//                   </Link>
+//                 </li>
+//                 <li>
+//                   <Link
+//                     to="about"
+//                     smooth={true}
+//                     duration={500}
+//                     className="hover:text-[#fe5617] cursor-pointer"
+//                     onClick={() => setIsMenuOpen(false)}
+//                   >
+//                     About
+//                   </Link>
+//                 </li>
+//                 <li>
+//                   <Link
+//                     to="project"
+//                     smooth={true}
+//                     duration={500}
+//                     className="hover:text-[#fe5617] cursor-pointer"
+//                     onClick={() => setIsMenuOpen(false)}
+//                   >
+//                     Project
+//                   </Link>
+//                 </li>
+//                 <li>
+//                   <Link
+//                     to="contact"
+//                     smooth={true}
+//                     duration={500}
+//                     className="hover:text-[#fe5617] cursor-pointer"
+//                     onClick={() => setIsMenuOpen(false)}
+//                   >
+//                     Contact
+//                   </Link>
+//                 </li>
+//               </ul>
+//             </nav>
+//           </div>
+//         )}
+
+//         {/* Social Media Links - Desktop */}
+//         <div className="hidden lg:flex w-[100px] items-center justify-between">
+//           <a href="https://github.com/ChandruSakthi" target="_blank" className="hover:text-[#fe5617]">
+//             <FaGithub size={29} />
+//           </a>
+//           <a href="https://www.linkedin.com/in/chandru72/" target="_blank" className="hover:text-[#fe5617]">
+//             <FaLinkedin size={29} />
+//           </a>
+//           <a href="https://www.instagram.com/iconic_eyes_lover/profilecard/?igsh=dTJxeTM4bGQ2czk2" target="_blank" className="hover:text-[#fe5617]">
+//             <FaInstagram size={29} />
+//           </a>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Header;
 import { useState } from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
@@ -278,11 +378,24 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
+            
+            {/* Social Media Links - Mobile */}
+            <div className="flex w-[150px] items-center justify-between mt-8">
+              <a href="https://github.com/ChandruSakthi" target="_blank" className="hover:text-[#fe5617]">
+                <FaGithub size={29} />
+              </a>
+              <a href="https://www.linkedin.com/in/chandru72/" target="_blank" className="hover:text-[#fe5617]">
+                <FaLinkedin size={29} />
+              </a>
+              <a href="https://www.instagram.com/iconic_eyes_lover/profilecard/?igsh=dTJxeTM4bGQ2czk2" target="_blank" className="hover:text-[#fe5617]">
+                <FaInstagram size={29} />
+              </a>
+            </div>
           </div>
         )}
 
         {/* Social Media Links - Desktop */}
-        <div className="hidden lg:flex w-[100px] items-center justify-between">
+        <div className="hidden lg:flex w-[150px] items-center justify-between">
           <a href="https://github.com/ChandruSakthi" target="_blank" className="hover:text-[#fe5617]">
             <FaGithub size={29} />
           </a>
@@ -299,5 +412,6 @@ const Header = () => {
 };
 
 export default Header;
+
 
 

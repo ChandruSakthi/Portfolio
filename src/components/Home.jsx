@@ -79,7 +79,7 @@ const Home = () => {
             src="/myImage.png"
             alt="Kendrick Lamar - GNX Album Cover"
             // className="rounded-full w-[250px] h-[250px] md:w-[400px] md:h-[400px] object-cover border-2 border-gray-500"
-            className="rounded-full w-[250px] h-[250px] md:w-[400px] md:h-[400px] object-cover border-2 border-gray-500 relative sm:left-0 left-[-55px]"
+            className="rounded-full w-[250px] h-[250px] md:w-[350px] md:h-[350px] object-cover border-2 border-gray-500 relative sm:left-0 left-[-30px] md:top-[-80px]"
 
           />
           {/* <img

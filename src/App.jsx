@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Loader from "./components/SpinnerLoader";
+import Headroom from "react-headroom";
+import SpinnerLoader from "./components/SpinnerLoader";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -20,10 +22,12 @@ const App = () => {
   return (
     <div>
       {loading ? (
-        <Loader /> // Show the loader while loading is true
+        <SpinnerLoader /> // Show the loader while loading is true
       ) : (
         <>
-          <Header />
+          <Headroom>
+            <Header />
+          </Headroom>
           <Home />
           <About />
           <Project />

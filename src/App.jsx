@@ -25,9 +25,9 @@ const App = () => {
         <SpinnerLoader /> // Show the loader while loading is true
       ) : (
         <>
-          <Headroom>
+          {/* <Headroom> */}
             <Header />
-          </Headroom>
+          {/* </Headroom> */}
           <Home />
           <About />
           <Project />

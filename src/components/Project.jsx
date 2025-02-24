@@ -58,7 +58,7 @@ const Project = () => {
               Developed a dynamic e-commerce platform with a React and Bootstrap frontend for an intuitive user interface. Implemented a robust backend using Java, Spring Boot, and MySQL for secure and efficient data handling. Focused on delivering seamless user experience and scalable performance.
             </p>
             <a
-              href="https://biosta.netlify.app/"
+              href="https://github.com/ChandruSakthi/E-Commerce-Application"
               className="text-[#fe5617] text-center font-bold text-lg hover:underline"
             >
               Code
@@ -116,7 +116,7 @@ const Project = () => {
               Developed a secure e-commerce backend using Java, Spring Boot, and MySQL. Successfully integrated user management features, including Aadhar and PAN card information, with a focus on ensuring data integrity and security throughout the system.
             </p>
             <a
-              href="https://coderlobby.tech/"
+              href="https://github.com/ChandruSakthi/User-Details-Management"
               className="text-[#fe5617] font-bold text-lg hover:underline"
             >
               Code

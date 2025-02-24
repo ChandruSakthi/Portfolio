@@ -11,15 +11,15 @@
 // export default SpinnerLoader;
 
 
-// const SpinnerLoader = () => {
-//   return (
-//     <div className="flex justify-center items-center h-screen">
-//       <div className="w-12 h-12 bg-blue-500 rounded-full animate-ping"></div>
-//     </div>
-//   );
-// };
+const SpinnerLoader = () => {
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <div className="w-12 h-12 bg-blue-500 rounded-full animate-ping"></div>
+    </div>
+  );
+};
 
-// export default SpinnerLoader;
+export default SpinnerLoader;
 // const SpinnerLoader = () => {
 //   return (
 //     <div className="flex justify-center items-center h-screen space-x-2">
@@ -49,19 +49,19 @@
 // };
 
 // export default SpinnerLoader;
-const SpinnerLoader = () => {
-  return (
-    <div className="p-4 max-w-sm w-full mx-auto">
-      <div className="animate-pulse space-y-4">
-        <div className="h-4 bg-gray-300 rounded w-3/4"></div>
-        <div className="h-4 bg-gray-300 rounded w-1/2"></div>
-        <div className="h-4 bg-gray-300 rounded w-full"></div>
-      </div>
-    </div>
-  );
-};
+// const SpinnerLoader = () => {
+//   return (
+//     <div className="p-4 max-w-sm w-full mx-auto">
+//       <div className="animate-pulse space-y-4">
+//         <div className="h-4 bg-gray-300 rounded w-3/4"></div>
+//         <div className="h-4 bg-gray-300 rounded w-1/2"></div>
+//         <div className="h-4 bg-gray-300 rounded w-full"></div>
+//       </div>
+//     </div>
+//   );
+// };
 
-export default SpinnerLoader;
+// export default SpinnerLoader;
 
 
 

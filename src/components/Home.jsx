@@ -75,13 +75,13 @@ const Home = () => {
 
         {/* Right Section */}
         <div className="order-1 lg:order-2 flex justify-end items-center">
-          <img
-            src="/myImage.png"
-            alt="Kendrick Lamar - GNX Album Cover"
-            // className="rounded-full w-[250px] h-[250px] md:w-[400px] md:h-[400px] object-cover border-2 border-gray-500"
-            className="rounded-full w-[250px] h-[250px] md:w-[350px] md:h-[350px] object-cover border-2 border-gray-500 relative sm:left-0 left-[-30px]"
+        <img
+  src="/myImage.png"
+  alt="Kendrick Lamar - GNX Album Cover"
+  className="rounded-full w-[250px] h-[250px] md:w-[350px] md:h-[350px] object-cover border-1 border-gray-500 shadow-[0_10px_30px_#fe5617] relative sm:left-0 left-[-55px] md:top-[-50px]"
+/>
 
-          />
+
           {/* <img
             className="w-[85%] rounded-[50px]"
             src={video}
